@@ -35,6 +35,7 @@ export const UserRoutes = (app) => {
         page,
         ITEMS_PER_PAGE
       );
+      console.log('userData')
       res.status(200).json(userData);
     } catch (error) {
       console.error(error);

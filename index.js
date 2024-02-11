@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGODB_URL, {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello, world!");
+  res.send("Hello world!");
 });
 
 UserRoutes(app);
